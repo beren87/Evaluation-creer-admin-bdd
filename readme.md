@@ -20,3 +20,4 @@ connect <database-name>;
 ```bash
 show tables;
 ```  
+### *Remplacez ce qui est entre <...> par ce qui est écrit; exemple: mysql -u <username> remplacez par mysql -u johndoe*

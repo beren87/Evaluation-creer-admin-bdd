@@ -1,6 +1,6 @@
 CREATE TABLE Cinema
 (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     nameCinema VARCHAR(255) NOT NULL,
     addressCinema VARCHAR(255) NOT NULL
 );
@@ -15,7 +15,7 @@ CREATE TABLE MovieTheater
 
 CREATE TABLE Movie
 (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY,x
     title VARCHAR(255) NOT NULL,
     timeMovie INT NOT NULL,
     minimumAge INT NOT NULL
